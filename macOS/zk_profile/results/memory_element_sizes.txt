@@ -1,0 +1,3 @@
+Fr_memory_bytes=32
+G1Affine_memory_bytes=104
+G2Affine_memory_bytes=200

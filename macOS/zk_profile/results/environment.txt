@@ -1,0 +1,33 @@
+=== Hardware ===
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: Mac mini
+      Model Identifier: Mac14,3
+      Model Number: MMFJ3CH/A
+      Chip: Apple M2
+      Total Number of Cores: 8 (4 performance and 4 efficiency)
+      Memory: 8 GB
+      System Firmware Version: 8419.80.7
+      OS Loader Version: 8419.80.7
+      Serial Number (system): RYCGG9C97K
+      Hardware UUID: 851DBF29-B522-501C-AB3E-4512663428C4
+      Provisioning UDID: 00008112-0012442426A3C01E
+      Activation Lock Status: Enabled
+
+
+=== OS ===
+ProductName:		macOS
+ProductVersion:		13.2.1
+BuildVersion:		22D68
+
+=== Architecture ===
+arm64
+
+=== Rust ===
+rustc 1.94.0 (4a4ef493e 2026-03-02)
+cargo 1.94.0 (85eff7c80 2026-01-15)
+
+=== Date ===
+2026年 8月27日 星期四 20时40分22秒 HKT

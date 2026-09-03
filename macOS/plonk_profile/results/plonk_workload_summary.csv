@@ -1,0 +1,2 @@
+proof_system,runs,fft_ifft_calls_per_run,fft_ifft_elements_per_run,msm_calls_per_run,msm_effective_pairs_per_run,prove_ms_mean,prove_ms_std,prove_ms_min,prove_ms_max
+PLONK-KZG,3,13,31744,11,5661,66.667,8.505,58,75

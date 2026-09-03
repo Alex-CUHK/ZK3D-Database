@@ -1,0 +1,5 @@
+workload,steps,source,target,logical_bytes,logical_bytes_read,logical_bytes_written,normalized_weight,critical,measured_or_derived,derivation
+Groth16-16384,16384,MEMORY,MSM,8651328,8651040,288,0.589324951171875,False,DERIVED,effective_pairs * (compressed_point_bytes + scalar_bytes) + one compressed output point per MSM
+Groth16-16384,16384,MEMORY,NTT_FFT,14680064,7340032,7340032,1.0,False,DERIVED,transform_elements * 32-byte field element * (one logical read + one logical write)
+Groth16-65536,65536,MEMORY,MSM,34603584,34603296,288,0.5892955235072544,False,DERIVED,effective_pairs * (compressed_point_bytes + scalar_bytes) + one compressed output point per MSM
+Groth16-65536,65536,MEMORY,NTT_FFT,58720256,29360128,29360128,1.0,False,DERIVED,transform_elements * 32-byte field element * (one logical read + one logical write)

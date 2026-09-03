@@ -1,0 +1,6 @@
+steps=16384,run=1,seed=20260828,setup_ms=357,prove_ms=353,verify_ms=2,valid=true
+steps=16384,run=2,seed=20260829,setup_ms=323,prove_ms=353,verify_ms=2,valid=true
+steps=16384,run=3,seed=20260830,setup_ms=322,prove_ms=339,verify_ms=2,valid=true
+steps=65536,run=1,seed=20260828,setup_ms=1131,prove_ms=1193,verify_ms=2,valid=true
+steps=65536,run=2,seed=20260829,setup_ms=1091,prove_ms=1302,verify_ms=2,valid=true
+steps=65536,run=3,seed=20260830,setup_ms=1325,prove_ms=1206,verify_ms=2,valid=true

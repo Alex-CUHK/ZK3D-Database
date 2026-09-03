@@ -1,0 +1,39 @@
+{
+  "workload": "PLONK-KZG-TestCircuit",
+  "metadata": {
+    "scalar_serialized_bytes": 32,
+    "g1_serialized_bytes": 48,
+    "note": "Logical payload proxy based on Dusk canonical serialized sizes; NOT measured physical DRAM/HBM traffic."
+  },
+  "nodes": [
+    "MEMORY",
+    "MSM",
+    "NTT_FFT"
+  ],
+  "edges": [
+    {
+      "workload": "PLONK-KZG-TestCircuit",
+      "source": "MEMORY",
+      "target": "MSM",
+      "logical_bytes": 453408,
+      "logical_bytes_read": 452880,
+      "logical_bytes_written": 528,
+      "normalized_weight": 0.22317603326612903,
+      "critical": false,
+      "measured_or_derived": "DERIVED",
+      "derivation": "effective_pairs * (48-byte G1Affine + 32-byte Scalar) + one 48-byte G1Affine output per KZG commitment"
+    },
+    {
+      "workload": "PLONK-KZG-TestCircuit",
+      "source": "MEMORY",
+      "target": "NTT_FFT",
+      "logical_bytes": 2031616,
+      "logical_bytes_read": 1015808,
+      "logical_bytes_written": 1015808,
+      "normalized_weight": 1.0,
+      "critical": false,
+      "measured_or_derived": "DERIVED",
+      "derivation": "transform_elements * 32-byte Scalar * (one logical read + one logical write)"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "workload": "Groth16-16384",
+    "proof_system": "Groth16",
+    "steps": 16384,
+    "nodes": [
+      {
+        "id": "MEMORY",
+        "type": "memory"
+      },
+      {
+        "id": "MSM",
+        "type": "compute"
+      },
+      {
+        "id": "NTT_FFT",
+        "type": "compute"
+      }
+    ],
+    "edges": [
+      {
+        "source": "MEMORY",
+        "target": "MSM",
+        "logical_bytes": 8651328,
+        "logical_bytes_read": 8651040,
+        "logical_bytes_written": 288,
+        "derivation": "effective_pairs * (compressed_point_bytes + scalar_bytes) + one compressed output point per MSM",
+        "measured_or_derived": "DERIVED",
+        "normalized_weight": 0.589324951171875,
+        "workload": "Groth16-16384",
+        "steps": 16384,
+        "critical": false
+      },
+      {
+        "source": "MEMORY",
+        "target": "NTT_FFT",
+        "logical_bytes": 14680064,
+        "logical_bytes_read": 7340032,
+        "logical_bytes_written": 7340032,
+        "derivation": "transform_elements * 32-byte field element * (one logical read + one logical write)",
+        "measured_or_derived": "DERIVED",
+        "normalized_weight": 1.0,
+        "workload": "Groth16-16384",
+        "steps": 16384,
+        "critical": false
+      }
+    ],
+    "metadata": {
+      "Fr_bytes": 32,
+      "G1Affine_compressed_bytes": 48,
+      "G2Affine_compressed_bytes": 96,
+      "traffic_definition": "Logical payload proxy based on canonical serialized sizes; NOT physical DRAM/HBM traffic.",
+      "edge_weight_formula": "logical_bytes / maximum logical_bytes within workload"
+    }
+  },
+  {
+    "workload": "Groth16-65536",
+    "proof_system": "Groth16",
+    "steps": 65536,
+    "nodes": [
+      {
+        "id": "MEMORY",
+        "type": "memory"
+      },
+      {
+        "id": "MSM",
+        "type": "compute"
+      },
+      {
+        "id": "NTT_FFT",
+        "type": "compute"
+      }
+    ],
+    "edges": [
+      {
+        "source": "MEMORY",
+        "target": "MSM",
+        "logical_bytes": 34603584,
+        "logical_bytes_read": 34603296,
+        "logical_bytes_written": 288,
+        "derivation": "effective_pairs * (compressed_point_bytes + scalar_bytes) + one compressed output point per MSM",
+        "measured_or_derived": "DERIVED",
+        "normalized_weight": 0.5892955235072544,
+        "workload": "Groth16-65536",
+        "steps": 65536,
+        "critical": false
+      },
+      {
+        "source": "MEMORY",
+        "target": "NTT_FFT",
+        "logical_bytes": 58720256,
+        "logical_bytes_read": 29360128,
+        "logical_bytes_written": 29360128,
+        "derivation": "transform_elements * 32-byte field element * (one logical read + one logical write)",
+        "measured_or_derived": "DERIVED",
+        "normalized_weight": 1.0,
+        "workload": "Groth16-65536",
+        "steps": 65536,
+        "critical": false
+      }
+    ],
+    "metadata": {
+      "Fr_bytes": 32,
+      "G1Affine_compressed_bytes": 48,
+      "G2Affine_compressed_bytes": 96,
+      "traffic_definition": "Logical payload proxy based on canonical serialized sizes; NOT physical DRAM/HBM traffic.",
+      "edge_weight_formula": "logical_bytes / maximum logical_bytes within workload"
+    }
+  }
+]

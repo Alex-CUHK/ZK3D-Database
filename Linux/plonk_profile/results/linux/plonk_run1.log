@@ -1,0 +1,146 @@
+ Downloading crates ...
+  Downloaded criterion-plot v0.8.2
+  Downloaded ptr_meta v0.1.4
+  Downloaded find-msvc-tools v0.1.11
+  Downloaded ciborium-io v0.2.2
+  Downloaded ptr_meta_derive v0.1.4
+  Downloaded rend v0.4.2
+  Downloaded shlex v2.0.1
+  Downloaded seahash v4.1.0
+  Downloaded same-file v1.0.6
+  Downloaded tinyvec_macros v0.1.1
+  Downloaded getrandom v0.4.3
+  Downloaded errno v0.3.14
+  Downloaded ciborium-ll v0.2.2
+  Downloaded walkdir v2.5.0
+  Downloaded half v2.7.1
+  Downloaded tinyvec v1.12.0
+  Downloaded fastrand v2.5.0
+  Downloaded cc v1.4.4
+  Downloaded ciborium v0.2.2
+  Downloaded zerocopy-derive v0.8.56
+  Downloaded clap v4.6.6
+  Downloaded rkyv v0.7.46
+  Downloaded regex v1.13.1
+  Downloaded tinytemplate v1.2.1
+  Downloaded criterion v0.8.2
+  Downloaded clap_lex v1.1.0
+  Downloaded plotters v0.3.7
+  Downloaded clap_builder v4.6.6
+  Downloaded anstyle v1.0.14
+  Downloaded bytecheck_derive v0.6.12
+  Downloaded tempfile v3.27.0
+  Downloaded cast v0.3.0
+  Downloaded bytecheck v0.6.12
+  Downloaded anes v0.1.6
+  Downloaded rkyv_derive v0.7.46
+  Downloaded oorandom v11.1.5
+  Downloaded aho-corasick v1.1.5
+  Downloaded alloca v0.4.0
+  Downloaded regex-syntax v0.8.11
+  Downloaded plotters-svg v0.3.7
+  Downloaded rustix v1.1.4
+  Downloaded plotters-backend v0.3.7
+  Downloaded page_size v0.6.0
+  Downloaded bitflags v2.13.1
+  Downloaded regex-automata v0.4.18
+  Downloaded linux-raw-sys v0.12.1
+   Compiling libc v0.2.189
+   Compiling syn v1.0.109
+   Compiling zerocopy v0.8.56
+   Compiling zerocopy-derive v0.8.56
+   Compiling getrandom v0.2.17
+   Compiling rand_core v0.6.4
+   Compiling either v1.18.0
+   Compiling serde_core v1.0.229
+   Compiling ff v0.13.1
+   Compiling find-msvc-tools v0.1.11
+   Compiling zmij v1.0.23
+   Compiling shlex v2.0.1
+   Compiling serde v1.0.229
+   Compiling once_cell v1.21.4
+   Compiling autocfg v1.5.1
+   Compiling num-traits v0.2.19
+   Compiling cc v1.4.4
+   Compiling rayon v1.12.0
+   Compiling group v0.13.0
+   Compiling ptr_meta_derive v0.1.4
+   Compiling serde_derive v1.0.229
+   Compiling bytecheck v0.6.12
+   Compiling serde_json v1.0.151
+   Compiling ptr_meta v0.1.4
+   Compiling pairing v0.23.0
+   Compiling alloca v0.4.0
+   Compiling ahash v0.7.8
+   Compiling half v2.7.1
+   Compiling bytecheck_derive v0.6.12
+   Compiling ciborium-io v0.2.2
+   Compiling plotters-backend v0.3.7
+   Compiling regex-syntax v0.8.11
+   Compiling clap_lex v1.1.0
+   Compiling memchr v2.8.3
+   Compiling anstyle v1.0.14
+   Compiling rend v0.4.2
+   Compiling itoa v1.0.18
+   Compiling rustix v1.1.4
+   Compiling getrandom v0.4.3
+   Compiling clap_builder v4.6.6
+   Compiling regex-automata v0.4.18
+   Compiling plotters-svg v0.3.7
+   Compiling ciborium-ll v0.2.2
+   Compiling hashbrown v0.12.3
+   Compiling dusk-bls12_381 v0.14.2
+   Compiling ppv-lite86 v0.2.21
+   Compiling itertools v0.13.0
+   Compiling cast v0.3.0
+   Compiling same-file v1.0.6
+   Compiling bitflags v2.13.1
+   Compiling rkyv v0.7.46
+   Compiling linux-raw-sys v0.12.1
+   Compiling walkdir v2.5.0
+   Compiling merlin v3.0.0
+   Compiling criterion-plot v0.8.2
+   Compiling rand_chacha v0.3.1
+   Compiling dusk-jubjub v0.15.2
+   Compiling plotters v0.3.7
+   Compiling ciborium v0.2.2
+   Compiling regex v1.13.1
+   Compiling clap v4.6.6
+   Compiling tinytemplate v1.2.1
+   Compiling rkyv_derive v0.7.46
+   Compiling page_size v0.6.0
+   Compiling oorandom v11.1.5
+   Compiling anes v0.1.6
+   Compiling seahash v4.1.0
+   Compiling fastrand v2.5.0
+   Compiling tempfile v3.27.0
+   Compiling criterion v0.8.2
+   Compiling dusk-plonk v0.22.1 (/www/zk3d_workload/plonk_profile)
+   Compiling rand v0.8.8
+    Finished `release` profile [optimized + debuginfo] target(s) in 1m 32s
+     Running `target/release/examples/circuit_profile`
+ZK3D_PROFILE,IFFT,elements=512
+ZK3D_PROFILE,IFFT,elements=512
+ZK3D_PROFILE,IFFT,elements=512
+ZK3D_PROFILE,IFFT,elements=512
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=514
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=514
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=514
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=514
+ZK3D_PROFILE,IFFT,elements=512
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=515
+ZK3D_PROFILE,IFFT,elements=512
+ZK3D_PROFILE,FFT,elements=4096
+ZK3D_PROFILE,FFT,elements=4096
+ZK3D_PROFILE,FFT,elements=4096
+ZK3D_PROFILE,FFT,elements=4096
+ZK3D_PROFILE,FFT,elements=4096
+ZK3D_PROFILE,FFT,elements=4096
+ZK3D_PROFILE,IFFT,elements=4096
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=513
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=513
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=513
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=519
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=518
+ZK3D_PROFILE,MSM,KZG_COMMIT,bases=519,scalars=514
+ZK3D_RUNTIME,prove_ms=378
